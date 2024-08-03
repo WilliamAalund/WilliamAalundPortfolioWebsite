@@ -6,7 +6,7 @@
     <title>My Portfolio Website</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <header>
@@ -15,6 +15,9 @@
             <a class="navbar-brand" href="#">William Aalund Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
+            </button>
+            <button class="navbar__btn" id="dark-mode-button" onclick="toggleDarkMode()">
+                🌛 Dark Mode
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -28,7 +31,7 @@
     </header>
     
     <main class="container">
-        <!-- Your content goes here -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo omnis officiis amet! Provident at eveniet adipisci, ad ratione ab repudiandae nihil, animi explicabo suscipit ipsum possimus voluptates sequi ut!</p>
     </main>
     
     <footer class="text-center mt-4">
@@ -39,5 +42,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
